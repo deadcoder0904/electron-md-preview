@@ -1,7 +1,7 @@
 {
-  "name": "hello-electron",
+  "name": "markdown-previewer",
   "version": "1.0.0",
-  "description": "Hello World App made in Electron",
+  "description": "MD previewer Desktop App made in Electron",
   "main": "app.js",
   "author": "Akshay Kadam",
   "license": "MIT",
