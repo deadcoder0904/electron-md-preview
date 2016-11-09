@@ -1,0 +1,48 @@
+html { 
+  height: 100%; 
+}
+
+body {
+  background: #B993D6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #B993D6 , #8CA6DB); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #B993D6 , #8CA6DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.header {
+  color: aquamarine;
+  font-size: 60px;
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.flexcontainer { 
+  display: flex;
+  flex-direction: row;
+}
+
+.flexbox {
+  border: 1px solid #EEEEEE;
+  box-shadow: 1px 1px 0 #DDDDDD;
+  display: block;
+  font-family: 'Marck Script',cursive;
+  font-size: 22px;
+  line-height: 50px;
+  margin: 1% 1%;
+  padding: 11px 0px 0 70px;
+  resize: none;
+  height: 85%;
+  width: 45%;
+}
+
+#output {
+  overflow-y: scroll;
+}
+
+#input {
+  
+  background-image: -moz-linear-gradient(top , transparent, transparent 49px,#E7EFF8 0px), -moz-radial-gradient(4% 50%, circle closest-corner, #f5f5f5, #f5f5f5 39%, transparent 0%), -moz-radial-gradient(3.9% 46% , circle closest-corner, #CCCCCC, #CCCCCC 43.5%, transparent 0%); 
+  background-image: -webkit-linear-gradient(top , transparent, transparent 49px,#E7EFF8 0), -webkit-radial-gradient(4% 50%, circle closest-corner, #f5f5f5, #f5f5f5 39%, transparent 0%), -webkit-radial-gradient(3.9% 46%, circle closest-corner, #cccccc, #cccccc 43.5%, transparent 0%);
+  
+  -webkit-background-size:  100% 50px;
+  background-size: 100% 50px;
+}
